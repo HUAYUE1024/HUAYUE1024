@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="140" viewBox="0 0 480 140">
+<rect x=".5" y=".5" width="479" height="139" rx="12" fill="#0a0e14" stroke="#00F5D4" stroke-opacity=".45"/>
+<rect x="0" y="0" width="4" height="140" rx="2" fill="#00F5D4"/>
+<text x="24" y="40" fill="#5c6773" font-family="monospace" font-size="13">~/repos/</text>
+<text x="24" y="66" fill="#00F5D4" font-family="monospace" font-size="21" font-weight="bold">mi-fitness-mcp-cn</text>
+<text x="24" y="96" fill="#c9d1d9" font-family="monospace,sans-serif" font-size="13">小米运动健康 · 本地 MCP Server + REST API + Web 仪表盘</text>
+<circle cx="30" cy="120" r="6" fill="#3572A5"/><text x="44" y="125" fill="#8b949e" font-family="monospace" font-size="13">Python</text>
+</svg>

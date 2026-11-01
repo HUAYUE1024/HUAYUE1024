@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00F5D4"/><stop offset="1" stop-color="#00BBF9"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#00F5D4" stroke-opacity=".07"/></pattern>
+<clipPath id="c"><rect x="60" y="70" width="0" height="80"><animate attributeName="width" values="0;620;620" keyTimes="0;.5;1" dur="4s" fill="freeze"/></rect></clipPath></defs>
+<rect width="1000" height="220" rx="14" fill="#0a0e14"/><rect width="1000" height="220" rx="14" fill="url(#grid)"/>
+<rect x="1" y="1" width="998" height="218" rx="14" fill="none" stroke="#00F5D4" stroke-opacity=".4"/>
+<circle cx="28" cy="24" r="6" fill="#ff5f56"/><circle cx="48" cy="24" r="6" fill="#ffbd2e"/><circle cx="68" cy="24" r="6" fill="#27c93f"/>
+<text x="500" y="29" fill="#5c6773" font-family="monospace" font-size="13" text-anchor="middle">~/huayue1024 — zsh</text>
+<text x="60" y="78" fill="#5c6773" font-family="monospace" font-size="16">$ whoami</text>
+<g clip-path="url(#c)" filter="url(#glow)"><text x="60" y="135" fill="url(#g)" font-family="monospace" font-size="64" font-weight="bold" letter-spacing="4">HUAYUE1024</text></g>
+<rect x="60" y="88" width="30" height="56" fill="#00F5D4" opacity=".8"><animate attributeName="x" values="60;470;470" keyTimes="0;.5;1" dur="4s" fill="freeze"/><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<text x="60" y="180" fill="#00F5D4" font-family="monospace" font-size="20" opacity="0">&gt; building local-first AI tools_<animate attributeName="opacity" from="0" to="1" begin="2s" dur="1s" fill="freeze"/></text>
+<rect width="1000" height="3" fill="#00F5D4" opacity=".15"><animate attributeName="y" values="0;220" dur="3s" repeatCount="indefinite"/></rect>
+</svg>
